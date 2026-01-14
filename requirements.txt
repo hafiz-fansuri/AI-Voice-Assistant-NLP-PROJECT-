@@ -1,0 +1,5 @@
+speechrecognition==3.8.1
+pyttsx3==2.90
+torch==2.2.0
+transformers==4.35.0
+difflib2==0.0.9
