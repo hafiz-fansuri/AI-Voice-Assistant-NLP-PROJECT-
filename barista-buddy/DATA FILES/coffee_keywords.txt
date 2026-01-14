@@ -1,0 +1,29 @@
+espresso
+latte
+cappuccino
+mocha
+macchiato
+americano
+flat white
+affogato
+arabica
+robusta
+decaf
+brew
+grind
+single origin
+origin
+roast
+cold brew
+pour over
+chemex
+v60
+aeropress
+french press
+milk
+foam
+steam
+ratio
+caffeine
+barista
+crema

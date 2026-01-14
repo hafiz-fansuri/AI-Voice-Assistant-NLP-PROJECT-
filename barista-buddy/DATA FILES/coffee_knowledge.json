@@ -1,0 +1,740 @@
+[
+  {
+    "id": 1,
+    "category": "espresso",
+    "question": "how to make espresso",
+    "answer": "To make a perfect espresso: Use 18 to 20 grams of finely ground coffee. Tamp evenly with 30 pounds of pressure. Extract for 25 to 30 seconds. You should get about 2 ounces with rich crema on top.",
+    "keywords": ["espresso", "shot", "pull", "extract", "brew"]
+  },
+    {
+      "id": 2,
+      "category": "espresso",
+      "question": "espresso too bitter",
+      "answer": "If your espresso is too bitter, try these fixes: Use a coarser grind size. Reduce extraction time to 20 to 25 seconds. Lower the water temperature to 195 to 200 degrees Fahrenheit. Check if your beans are over-roasted.",
+      "keywords": ["bitter", "espresso", "taste", "fix", "problem"]
+    },
+    {
+      "id": 3,
+      "category": "espresso",
+      "question": "espresso too sour",
+      "answer": "If your espresso tastes sour: Use a finer grind. Increase extraction time to 30 to 35 seconds. Raise water temperature to 200 to 205 degrees Fahrenheit. Ensure proper tamping pressure.",
+      "keywords": ["sour", "acidic", "espresso", "under-extracted"]
+    },
+    {
+      "id": 4,
+      "category": "espresso",
+      "question": "what is ristretto",
+      "answer": "A ristretto is a short espresso shot using the same amount of coffee but half the water. Extract for 15 to 20 seconds to get about 0.75 ounces. It has a sweeter, more concentrated flavor with less bitterness.",
+      "keywords": ["ristretto", "short", "shot", "concentrated"]
+    },
+    {
+      "id": 5,
+      "category": "espresso",
+      "question": "what is lungo",
+      "answer": "A lungo is a long espresso shot using more water than normal. Extract for 45 to 60 seconds to get about 3 to 4 ounces. It has a milder, more bitter taste compared to regular espresso.",
+      "keywords": ["lungo", "long", "shot", "extended"]
+    },
+    {
+      "id": 6,
+      "category": "milk_drinks",
+      "question": "how to make latte",
+      "answer": "To make a latte: Pull a double shot of espresso into a cup. Steam milk to 140 to 150 degrees Fahrenheit with microfoam. Pour steamed milk over espresso. The ratio is 1 part espresso to 3 parts milk. Top with a thin layer of foam.",
+      "keywords": ["latte", "milk", "steam", "cafe latte"]
+    },
+    {
+      "id": 7,
+      "category": "milk_drinks",
+      "question": "how to make cappuccino",
+      "answer": "To make a cappuccino: Pull a double shot of espresso. Steam milk to create more foam than for a latte. The ratio is 1 part espresso, 1 part steamed milk, 1 part foam. Serve in a 6 ounce cup.",
+      "keywords": ["cappuccino", "foam", "milk", "cap"]
+    },
+    {
+      "id": 8,
+      "category": "milk_drinks",
+      "question": "how to make macchiato",
+      "answer": "For an espresso macchiato: Pull a double shot of espresso. Add just a dollop of steamed milk foam on top. The name means marked or stained. It should be mostly espresso with just a spot of milk.",
+      "keywords": ["macchiato", "marked", "espresso", "spot"]
+    },
+    {
+      "id": 9,
+      "category": "milk_drinks",
+      "question": "how to make flat white",
+      "answer": "For a flat white: Pull a double ristretto shot. Steam milk to create velvety microfoam with minimal froth. Pour milk over espresso creating a thin layer of foam on top. Typical ratio is 1 part espresso to 2 parts milk.",
+      "keywords": ["flat white", "microfoam", "velvety", "ristretto"]
+    },
+    {
+      "id": 10,
+      "category": "milk_drinks",
+      "question": "how to make cortado",
+      "answer": "For a cortado: Pull a double shot of espresso. Add equal parts steamed milk with minimal foam. The ratio is 1 to 1 espresso to milk. Serve in a small 4 to 5 ounce glass. The milk cuts the acidity of the espresso.",
+      "keywords": ["cortado", "cut", "equal", "balanced"]
+    },
+    {
+      "id": 11,
+      "category": "milk_drinks",
+      "question": "how to steam milk",
+      "answer": "To steam milk properly: Use cold fresh milk. Purge the steam wand first. Submerge the wand tip just below the surface. Create a whirlpool motion. Heat to 140 to 150 degrees Fahrenheit. The milk should be silky with microfoam.",
+      "keywords": ["steam", "milk", "foam", "microfoam", "texture"]
+    },
+    {
+      "id": 12,
+      "category": "milk_drinks",
+      "question": "milk foam problems",
+      "answer": "Common milk foam issues: Large bubbles mean the wand was too high. Flat milk means not enough air incorporated. Burnt taste means overheated past 160 degrees. Use cold milk and create a whirlpool for best results.",
+      "keywords": ["foam", "milk", "bubbles", "texture", "problem"]
+    },
+    {
+      "id": 13,
+      "category": "milk_drinks",
+      "question": "what is mocha",
+      "answer": "A mocha is a chocolate-flavored latte. Add 1 to 2 tablespoons of chocolate syrup or powder to espresso. Steam milk and pour over. Top with whipped cream if desired. The ratio is espresso, chocolate, and steamed milk.",
+      "keywords": ["mocha", "chocolate", "latte", "sweet"]
+    },
+    {
+      "id": 14,
+      "category": "milk_drinks",
+      "question": "what is americano",
+      "answer": "An americano is espresso diluted with hot water. Pull a double shot of espresso. Add 6 to 8 ounces of hot water. This creates a coffee similar to drip but with espresso flavor. Some prefer water first, then espresso on top.",
+      "keywords": ["americano", "diluted", "water", "espresso"]
+    },
+    {
+      "id": 15,
+      "category": "brewing",
+      "question": "pour over method",
+      "answer": "For pour over coffee: Use a ratio of 1 gram coffee to 16 grams water. Grind medium-fine. Bloom the grounds with twice the coffee weight in water for 30 seconds. Pour in circular motions. Total brew time should be 3 to 4 minutes.",
+      "keywords": ["pour over", "v60", "chemex", "filter", "drip"]
+    },
+    {
+      "id": 16,
+      "category": "brewing",
+      "question": "french press method",
+      "answer": "For French press: Use a coarse grind. Ratio is 1 gram coffee to 15 grams water. Add coffee and hot water at 200 degrees Fahrenheit. Stir gently. Steep for 4 minutes. Press down slowly and serve immediately.",
+      "keywords": ["french press", "plunger", "press pot", "cafetiere"]
+    },
+    {
+      "id": 17,
+      "category": "brewing",
+      "question": "cold brew method",
+      "answer": "For cold brew: Use a ratio of 1 part coffee to 4 parts cold water. Grind coarse. Steep in refrigerator for 12 to 24 hours. Strain through a fine filter. Dilute concentrate with water or milk when serving.",
+      "keywords": ["cold brew", "iced", "concentrate", "steep"]
+    },
+    {
+      "id": 18,
+      "category": "brewing",
+      "question": "aeropress method",
+      "answer": "For Aeropress: Use 15 to 18 grams of medium-fine coffee. Add water at 175 to 185 degrees. Stir for 10 seconds. Insert plunger and press gently for 20 to 30 seconds. Experiment with inverted method for different results.",
+      "keywords": ["aeropress", "press", "plunger", "immersion"]
+    },
+    {
+      "id": 19,
+      "category": "brewing",
+      "question": "moka pot method",
+      "answer": "For moka pot: Fill bottom chamber with water just below valve. Add medium-fine coffee to basket without tamping. Assemble and place on medium heat. Remove from heat when you hear gurgling. Serves strong coffee similar to espresso.",
+      "keywords": ["moka pot", "stovetop", "bialetti", "espresso"]
+    },
+    {
+      "id": 20,
+      "category": "brewing",
+      "question": "siphon coffee method",
+      "answer": "For siphon coffee: Add water to lower chamber and heat. Add coffee to upper chamber. As water boils, it rises to mix with coffee. Remove heat and coffee filters down. Creates clean, tea-like coffee with bright flavors.",
+      "keywords": ["siphon", "vacuum", "pot", "brewing"]
+    },
+    {
+      "id": 21,
+      "category": "beans",
+      "question": "arabica vs robusta",
+      "answer": "Arabica has sweeter, more complex flavors with higher acidity. It contains less caffeine. Robusta is more bitter and earthy with twice the caffeine. Arabica grows at higher altitudes. Robusta is hardier and cheaper.",
+      "keywords": ["arabica", "robusta", "bean", "type", "species"]
+    },
+    {
+      "id": 22,
+      "category": "beans",
+      "question": "coffee roast levels",
+      "answer": "Light roast preserves origin flavors and has highest acidity. Medium roast balances acidity and body. Medium-dark has bittersweet notes. Dark roast has bold, smoky flavors with low acidity. Darker roasts have less caffeine per bean.",
+      "keywords": ["roast", "light", "dark", "medium", "roasting"]
+    },
+    {
+      "id": 23,
+      "category": "beans",
+      "question": "coffee bean storage",
+      "answer": "Store coffee beans in an airtight container away from light, heat, and moisture. Keep at room temperature. Do not refrigerate or freeze. Use within 2 weeks of opening for peak freshness. Buy whole beans and grind just before brewing.",
+      "keywords": ["storage", "fresh", "beans", "container", "preserve"]
+    },
+    {
+      "id": 24,
+      "category": "beans",
+      "question": "single origin vs blend",
+      "answer": "Single origin comes from one location and showcases unique terroir and flavor profile. Blends combine beans from multiple origins to achieve balanced, consistent flavor. Blends are better for espresso. Single origin is great for tasting distinct characteristics.",
+      "keywords": ["single origin", "blend", "estate", "origin"]
+    },
+    {
+      "id": 25,
+      "category": "beans",
+      "question": "coffee growing regions",
+      "answer": "Major coffee regions include Ethiopia and Kenya in Africa with fruity, floral notes. Central America produces balanced, chocolatey coffees. South America, especially Brazil and Colombia, offers nutty, sweet profiles. Indonesia and Asia provide earthy, full-bodied beans.",
+      "keywords": ["origin", "region", "country", "growing", "terroir"]
+    },
+    {
+      "id": 26,
+      "category": "beans",
+      "question": "coffee processing methods",
+      "answer": "Washed process removes fruit before drying, creating clean, bright flavors. Natural process dries beans inside the fruit for fruity, wine-like notes. Honey process is in between, creating sweet, complex flavors. Processing greatly affects taste.",
+      "keywords": ["processing", "washed", "natural", "honey", "method"]
+    },
+    {
+      "id": 27,
+      "category": "beans",
+      "question": "what is peaberry",
+      "answer": "Peaberry is a natural mutation where only one round bean develops instead of two flat beans in the coffee cherry. About 5 percent of beans are peaberries. They are denser and often considered more flavorful. They are usually sorted and sold separately.",
+      "keywords": ["peaberry", "round", "bean", "special"]
+    },
+    {
+      "id": 28,
+      "category": "equipment",
+      "question": "grinder types",
+      "answer": "Burr grinders crush beans between two surfaces for uniform size. Blade grinders chop beans unevenly. Burr grinders are better for consistent extraction. Flat burrs produce uniform particles. Conical burrs are quieter and retain flavor.",
+      "keywords": ["grinder", "burr", "blade", "grind", "grinding"]
+    },
+    {
+      "id": 29,
+      "category": "equipment",
+      "question": "grind size guide",
+      "answer": "Extra fine for Turkish coffee. Fine for espresso. Medium-fine for pour over and Aeropress. Medium for drip coffee. Medium-coarse for Chemex. Coarse for French press and cold brew. Finer grinds extract faster.",
+      "keywords": ["grind size", "coarse", "fine", "particle"]
+    },
+    {
+      "id": 30,
+      "category": "equipment",
+      "question": "espresso machine maintenance",
+      "answer": "Daily: Backflush with water and wipe gaskets. Weekly: Backflush with cleaning powder. Monthly: Clean shower screen and group head. Check water quality. Descale every 3 to 6 months depending on water hardness. Replace gaskets yearly.",
+      "keywords": ["maintenance", "clean", "machine", "backflush", "descale"]
+    },
+    {
+      "id": 31,
+      "category": "equipment",
+      "question": "water quality for coffee",
+      "answer": "Use filtered water with 50 to 150 ppm total dissolved solids. Avoid distilled water as it extracts poorly. Hard water causes scale buildup. Soft water can taste flat. Ideal pH is 6.5 to 7.5. Water makes up 98 percent of your coffee.",
+      "keywords": ["water", "quality", "filter", "hardness", "tds"]
+    },
+    {
+      "id": 32,
+      "category": "equipment",
+      "question": "tamper pressure",
+      "answer": "Apply about 30 pounds of consistent pressure when tamping espresso. The goal is to create an even, level puck. Too light and water channels through. Too hard does not improve extraction. Focus on level tamping more than pressure.",
+      "keywords": ["tamp", "tamper", "pressure", "puck"]
+    },
+    {
+      "id": 33,
+      "category": "equipment",
+      "question": "portafilter types",
+      "answer": "Pressurized portafilters have one hole and create artificial crema for beginners. Non-pressurized have multiple holes and require proper technique. Bottomless portafilters have no spouts and let you see extraction. Double spouts are standard for pulling two shots.",
+      "keywords": ["portafilter", "basket", "filter", "holder"]
+    },
+    {
+      "id": 34,
+      "category": "equipment",
+      "question": "coffee scale importance",
+      "answer": "A scale ensures consistent coffee-to-water ratios. Weighing is more accurate than volume measurements. Use scales with 0.1 gram precision. Time your extractions simultaneously. Consistency in measurements leads to consistent, quality coffee.",
+      "keywords": ["scale", "weight", "ratio", "measurement", "precision"]
+    },
+    {
+      "id": 35,
+      "category": "troubleshooting",
+      "question": "channeling in espresso",
+      "answer": "Channeling occurs when water finds paths through the coffee puck. Causes include uneven tamping, uneven distribution, too fine or too coarse grind, or old coffee. Fix by distributing grounds evenly before tamping and ensuring level tamp.",
+      "keywords": ["channeling", "uneven", "extraction", "puck"]
+    },
+    {
+      "id": 36,
+      "category": "troubleshooting",
+      "question": "weak coffee",
+      "answer": "If coffee tastes weak: Use more coffee grounds. Try a finer grind. Increase brew time. Check water temperature is 195 to 205 degrees Fahrenheit. Ensure your coffee is fresh. The standard ratio is 1 gram coffee to 16 grams water.",
+      "keywords": ["weak", "watery", "thin", "under-extracted"]
+    },
+    {
+      "id": 37,
+      "category": "troubleshooting",
+      "question": "bitter coffee",
+      "answer": "If coffee is bitter: Use a coarser grind. Reduce brew time. Lower water temperature. Use less coffee. Check if beans are over-roasted or stale. Over-extraction causes bitterness.",
+      "keywords": ["bitter", "over-extracted", "burnt", "harsh"]
+    },
+    {
+      "id": 38,
+      "category": "troubleshooting",
+      "question": "espresso too fast",
+      "answer": "If espresso extracts too fast in under 20 seconds: Use a finer grind. Increase your dose to 18 to 20 grams. Tamp with more pressure. Check that the basket is not clogged. Fresh beans extract better than stale.",
+      "keywords": ["fast", "extraction", "quick", "under", "flow"]
+    },
+    {
+      "id": 39,
+      "category": "troubleshooting",
+      "question": "espresso too slow",
+      "answer": "If espresso extracts too slow over 40 seconds: Use a coarser grind. Reduce your dose slightly. Tamp with less pressure. Check for clogs in basket or group head. Ensure even distribution before tamping.",
+      "keywords": ["slow", "extraction", "over", "blocked", "clog"]
+    },
+    {
+      "id": 40,
+      "category": "troubleshooting",
+      "question": "no crema on espresso",
+      "answer": "Lack of crema can be caused by: Stale coffee beans past 3 weeks. Water temperature too low. Grind too coarse. Insufficient pressure. Old or dirty equipment. Use fresh beans roasted within 2 weeks for best crema.",
+      "keywords": ["crema", "foam", "none", "missing", "flat"]
+    },
+    {
+      "id": 41,
+      "category": "latte_art",
+      "question": "basic latte art",
+      "answer": "For latte art: Steam milk to silky microfoam. Pour from high to mix espresso and milk. Lower pitcher close to surface. Pour steadily in one spot to create a white circle. Move pitcher back while pouring to create a heart or rosetta.",
+      "keywords": ["latte art", "pour", "pattern", "design", "heart", "rosetta"]
+    },
+    {
+      "id": 42,
+      "category": "latte_art",
+      "question": "milk texture for latte art",
+      "answer": "For latte art you need microfoam: silky, glossy milk with tiny bubbles. Steam to 140 to 150 degrees Fahrenheit. The milk should pour like wet paint. If too thin, incorporate more air. If too thick, it has too much foam.",
+      "keywords": ["microfoam", "texture", "milk", "glossy", "silky"]
+    },
+    {
+      "id": 43,
+      "category": "latte_art",
+      "question": "how to pour heart",
+      "answer": "To pour a heart: Start high and pour in center to mix. Lower pitcher close to surface. Pour steadily to create a white circle. When cup is 3/4 full, push forward slightly then pull back through center to create heart shape.",
+      "keywords": ["heart", "pattern", "latte art", "pour"]
+    },
+    {
+      "id": 44,
+      "category": "latte_art",
+      "question": "how to pour rosetta",
+      "answer": "To pour a rosetta: Pour high to mix, then lower pitcher. Start at one edge. Wiggle pitcher side to side while moving backwards. Each wiggle creates a leaf. Finish by pouring through center to create stem.",
+      "keywords": ["rosetta", "leaf", "fern", "pattern", "latte art"]
+    },
+    {
+      "id": 45,
+      "category": "latte_art",
+      "question": "latte art not working",
+      "answer": "If latte art is not working: Check milk texture is silky microfoam. Ensure espresso has good crema. Pour from correct height. Control flow rate from pitcher. Practice contrast between milk and espresso. Start with simple heart design.",
+      "keywords": ["problem", "latte art", "troubleshoot", "fix"]
+    },
+    {
+      "id": 46,
+      "category": "customer_service",
+      "question": "decaf coffee request",
+      "answer": "For decaf requests: Use Swiss water process decaf for best flavor. Brew the same way as regular coffee. Mention it has 97 percent of caffeine removed. Be respectful as some customers have medical reasons for choosing decaf.",
+      "keywords": ["decaf", "decaffeinated", "caffeine free"]
+    },
+    {
+      "id": 47,
+      "category": "customer_service",
+      "question": "extra hot milk",
+      "answer": "When customer requests extra hot milk: Steam to 160 to 165 degrees Fahrenheit maximum. Warn that hotter temperatures damage milk proteins and sweetness. Explain that standard temperature of 140 to 150 degrees preserves flavor. But honor their preference.",
+      "keywords": ["extra hot", "very hot", "temperature", "milk"]
+    },
+    {
+      "id": 48,
+      "category": "customer_service",
+      "question": "non-dairy milk options",
+      "answer": "Common non-dairy options: Oat milk froths well and tastes creamy. Almond milk is light and nutty but can split. Soy milk is high protein and froths well. Coconut milk adds tropical flavor. Use barista versions for better steaming.",
+      "keywords": ["non-dairy", "vegan", "oat milk", "almond milk", "soy milk", "alternative"]
+    },
+    {
+      "id": 49,
+      "category": "customer_service",
+      "question": "sugar and sweetener",
+      "answer": "Sweetener options: White sugar dissolves easily. Brown sugar adds molasses notes. Honey adds floral sweetness. Syrups like vanilla or caramel are popular. Stevia and artificial sweeteners for low-calorie options. Add before milk for best mixing.",
+      "keywords": ["sugar", "sweet", "sweetener", "syrup", "honey"]
+    },
+    {
+      "id": 50,
+      "category": "customer_service",
+      "question": "iced coffee vs iced latte",
+      "answer": "Iced coffee is brewed coffee poured over ice. Iced latte is espresso with cold milk over ice. Iced coffee is lighter and more caffeinated per serving. Iced latte is creamier with stronger coffee flavor. Cold brew is smoother than regular iced coffee.",
+      "keywords": ["iced", "cold", "difference", "iced latte", "iced coffee"]
+    },
+    {
+      "id": 51,
+      "category": "customer_service",
+      "question": "handling complaints",
+      "answer": "When handling coffee complaints: Listen actively without interrupting. Apologize sincerely. Offer to remake the drink. Ask specific questions about what is wrong. Use it as learning opportunity. Most customers appreciate quick, friendly resolution.",
+      "keywords": ["complaint", "customer", "service", "problem", "unhappy"]
+    },
+    {
+      "id": 52,
+      "category": "customer_service",
+      "question": "explaining coffee strength",
+      "answer": "Coffee strength refers to coffee-to-water ratio, not roast level. More coffee grounds make stronger brew. Dark roast tastes bolder but has less caffeine. Light roast has more caffeine. Espresso is strong because of concentration, not brewing method.",
+      "keywords": ["strong", "strength", "caffeine", "bold"]
+    },
+    {
+      "id": 53,
+      "category": "advanced",
+      "question": "what is cupping",
+      "answer": "Cupping is a standardized method for tasting and evaluating coffee. Grind coffee medium-coarse. Add hot water and let steep 4 minutes. Break the crust and smell aromas. Slurp from a spoon to spray coffee across palate. Evaluate flavor, acidity, body, and aftertaste.",
+      "keywords": ["cupping", "tasting", "evaluation", "sensory"]
+    },
+    {
+      "id": 54,
+      "category": "advanced",
+      "question": "coffee extraction explained",
+      "answer": "Extraction is dissolving soluble compounds from coffee into water. Under-extraction tastes sour and salty. Over-extraction tastes bitter and astringent. Ideal extraction is 18 to 22 percent. Controlled by grind size, time, temperature, and turbulence.",
+      "keywords": ["extraction", "brewing", "dissolve", "compounds"]
+    },
+    {
+      "id": 55,
+      "category": "advanced",
+      "question": "coffee bloom",
+      "answer": "Bloom is the release of carbon dioxide from fresh coffee when first wetted. Pour twice the coffee weight in water and wait 30 to 45 seconds. This degasses the coffee and allows more even extraction. Fresh coffee blooms more than stale coffee.",
+      "keywords": ["bloom", "degas", "carbon dioxide", "fresh"]
+    },
+    {
+      "id": 56,
+      "category": "advanced",
+      "question": "dialing in espresso",
+      "answer": "Dialing in means adjusting variables for perfect espresso. Start with 18 grams dose. Aim for 36 gram yield in 25 to 30 seconds. If too fast, grind finer or increase dose. If too slow, grind coarser. Taste and adjust until balanced.",
+      "keywords": ["dial in", "espresso", "adjust", "tune", "perfect"]
+    },
+    {
+      "id": 57,
+      "category": "advanced",
+      "question": "espresso ratios",
+      "answer": "Common espresso ratios: Traditional 1 to 2 ratio gives 18 grams in, 36 grams out. Ristretto 1 to 1.5 is more concentrated. Lungo 1 to 3 is longer and more bitter. Ratio affects flavor balance, body, and sweetness.",
+      "keywords": ["ratio", "dose", "yield", "espresso", "brew"]
+    },
+    {
+      "id": 58,
+      "category": "advanced",
+      "question": "tds and extraction yield",
+      "answer": "TDS measures total dissolved solids in brewed coffee. Ideal is 1.2 to 1.5 percent for filter coffee. Extraction yield should be 18 to 22 percent. Use a refractometer to measure TDS. This helps achieve consistent, balanced coffee.",
+      "keywords": ["tds", "extraction", "yield", "measurement", "refractometer"]
+    },
+    {
+      "id": 59,
+      "category": "advanced",
+      "question": "pre-infusion benefits",
+      "answer": "Pre-infusion wets the coffee puck at low pressure before full extraction. This allows grounds to expand and degas. It reduces channeling and creates more even extraction. Set pre-infusion to 3 to 8 seconds on machines that support it.",
+      "keywords": ["pre-infusion", "presoak", "wetting", "espresso"]
+    },
+    {
+      "id": 60,
+      "category": "advanced",
+      "question": "pressure profiling",
+      "answer": "Pressure profiling varies pressure during extraction. Start low at 2 to 4 bars for pre-infusion. Ramp to 9 bars for main extraction. Finish lower to reduce astringency. This technique extracts more complexity from the coffee.",
+      "keywords": ["pressure", "profile", "profiling", "advanced", "espresso"]
+    },
+    {
+      "id": 61,
+      "category": "health",
+      "question": "caffeine content",
+      "answer": "Average caffeine content: 8 oz brewed coffee has 95 mg. Double espresso has 60 to 80 mg. Light roast has slightly more caffeine than dark roast. Robusta has twice the caffeine of arabica. Decaf has 2 to 5 mg per cup.",
+      "keywords": ["caffeine", "content", "amount", "health"]
+    },
+    {
+      "id": 62,
+      "category": "health",
+      "question": "coffee health benefits",
+      "answer": "Coffee provides antioxidants and may reduce risk of Parkinson's, Alzheimer's, and type 2 diabetes. It can improve focus and physical performance. Moderate consumption is 3 to 4 cups daily. Benefits depend on individual tolerance and health conditions.",
+      "keywords": ["health", "benefits", "antioxidants", "wellness"]
+    },
+    {
+      "id": 63,
+      "category": "health",
+      "question": "pregnancy and coffee",
+      "answer": "Pregnant women should limit caffeine to 200 mg per day, about one 12 oz coffee. Excessive caffeine may increase miscarriage risk. Decaf is a safer option. Always consult with a healthcare provider about individual circumstances.",
+      "keywords": ["pregnancy", "pregnant", "caffeine", "limit", "safe"]
+    },
+    {
+      "id": 64,
+      "category": "specialty",
+      "question": "what is specialty coffee",
+      "answer": "Specialty coffee scores 80 points or above on a 100 point scale. It must be free of defects and have distinctive flavor attributes. Beans are traceable to origin. Roasting and brewing highlight unique characteristics. Represents top 10 percent of world coffee production.",
+      "keywords": ["specialty", "quality", "score", "grade"]
+    },
+    {
+      "id": 65,
+      "category": "specialty",
+      "question": "sca brewing standards",
+      "answer": "SCA standards recommend: 55 grams coffee per liter of water. Water temperature 200 degrees Fahrenheit plus or minus 5 degrees. Brew time 4 to 8 minutes. TDS of 1.15 to 1.35 percent. Extraction yield 18 to 22 percent.",
+      "keywords": ["sca", "standard", "golden", "ratio", "brewing"]
+    },
+    {
+      "id": 66,
+      "category": "specialty",
+      "question": "coffee flavor wheel",
+      "answer": "The coffee flavor wheel is a tool for describing coffee flavors. Center has general categories like fruity, nutty, or floral. Outer rings get more specific like berry, almond, or jasmine. Helps standardize tasting notes and communication about coffee flavors.",
+      "keywords": ["flavor", "wheel", "tasting", "notes", "sensory"]
+    },
+    {
+      "id": 67,
+      "category": "specialty",
+      "question": "direct trade vs fair trade",
+      "answer": "Fair trade ensures minimum price and labor standards through certification. Direct trade involves roasters buying directly from farmers, often paying more. Direct trade allows closer relationships and quality focus. Both aim to support farmers but use different approaches.",
+      "keywords": ["fair trade", "direct trade", "ethical", "sustainable"]
+    },
+    {
+      "id": 68,
+      "category": "seasonal",
+      "question": "pumpkin spice latte recipe",
+      "answer": "For pumpkin spice latte: Mix 2 tablespoons pumpkin puree with 1 tablespoon sugar and pumpkin spice. Add to espresso and stir. Steam milk and pour over. Top with whipped cream and spice. Popular fall seasonal drink.",
+      "keywords": ["pumpkin", "spice", "latte", "seasonal", "fall"]
+    },
+    {
+      "id": 69,
+      "category": "seasonal",
+      "question": "iced drinks in summer",
+      "answer": "Summer iced drinks: Cold brew for smooth taste. Iced latte for creamy texture. Affogato with ice cream. Nitro cold brew for creamy mouthfeel. Iced americano for simple refreshment. Use large ice cubes to prevent dilution.",
+      "keywords": ["iced", "cold", "summer", "refreshing", "cool"]
+    },
+    {
+      "id": 70,
+      "category": "equipment",
+      "question": "manual vs automatic espresso",
+      "answer": "Manual machines give full control over pressure and flow but require skill. Semi-automatic machines control pressure, you control timing. Automatic machines control both pressure and volume. Super-automatic grinds, brews, and froths automatically. Choose based on skill and desired control.",
+      "keywords": ["manual", "automatic", "machine", "espresso", "type"]
+    },
+    {
+      "id": 71,
+      "category": "troubleshooting",
+      "question": "coffee tastes burnt",
+      "answer": "Burnt taste can come from: Over-roasted beans. Water too hot over 205 degrees. Over-extraction from too fine grind. Dirty equipment with old coffee oils. Clean machine regularly and use proper temperature.",
+      "keywords": ["burnt", "taste", "roasted", "temperature"]
+    },
+    {
+      "id": 72,
+      "category": "brewing",
+      "question": "turkish coffee method",
+      "answer": "For Turkish coffee: Use extra fine grind like powder. Add coffee and water to cezve or ibrik. Add sugar if desired. Heat slowly without stirring. Pour when foam rises. Repeat twice. Serve with foam on top. Grounds settle in cup.",
+      "keywords": ["turkish", "cezve", "ibrik", "fine", "traditional"]
+    },
+    {
+      "id": 73,
+      "category": "brewing",
+      "question": "vietnamese coffee method",
+      "answer": "For Vietnamese coffee: Use a phin filter over cup. Add coarse ground coffee. Pour small amount of hot water to bloom. Add remaining water. Coffee drips slowly. Traditionally served over condensed milk for sweet, strong drink.",
+      "keywords": ["vietnamese", "phin", "filter", "condensed milk"]
+    },
+    {
+      "id": 74,
+      "category": "milk_drinks",
+      "question": "difference between latte and cappuccino",
+      "answer": "Cappuccino has equal parts espresso, steamed milk, and foam in smaller cup. Latte has more steamed milk and less foam in larger cup. Cappuccino has stronger coffee flavor. Latte is milkier and smoother. Both start with espresso base.",
+      "keywords": ["latte", "cappuccino", "difference", "comparison", "milk"]
+    },
+    {
+      "id": 75,
+      "category": "advanced",
+      "question": "water chemistry for coffee",
+      "answer": "Ideal water has 50 to 150 ppm TDS. Calcium and magnesium enhance extraction. Sodium adds smoothness. Bicarbonate buffers acidity. Chlorine and chloramine hurt flavor. Use carbon filter. Third wave water packets can optimize water chemistry.",
+      "keywords": ["water", "chemistry", "minerals", "tds", "quality"]
+    },
+    {
+      "id": 76,
+      "category": "beans",
+      "question": "coffee cherry to bean",
+      "answer": "Coffee grows as cherry on tree. Cherry has skin, pulp, mucilage, parchment, and two beans. Cherries are picked when ripe. Processing removes fruit layers. Beans are dried, hulled, sorted, and graded. Then roasted and brewed.",
+      "keywords": ["cherry", "processing", "bean", "fruit", "tree"]
+    },
+    {
+      "id": 77,
+      "category": "equipment",
+      "question": "cleaning coffee grinder",
+      "answer": "To clean grinder: Unplug and disassemble burrs if possible. Brush away old grounds. Wipe with dry cloth. For deep clean, use grinder cleaning tablets or rice. Never use water on burrs. Clean weekly for consistent flavor.",
+      "keywords": ["clean", "grinder", "maintenance", "burr", "brush"]
+    },
+    {
+      "id": 78,
+      "category": "milk_drinks",
+      "question": "oat milk for coffee",
+      "answer": "Oat milk froths well and has creamy texture. Use barista version for better steaming. Oat milk adds mild sweetness. Works great for latte art. Naturally lactose-free. Steam to same temperature as dairy milk around 140 to 150 degrees.",
+      "keywords": ["oat milk", "vegan", "dairy-free", "alternative", "steam"]
+    },
+    {
+      "id": 79,
+      "category": "customer_service",
+      "question": "explaining espresso vs coffee",
+      "answer": "Espresso is a brewing method using pressure. It is concentrated coffee brewed in 25 to 30 seconds. Regular coffee is brewed with gravity over several minutes. Espresso is base for lattes and cappuccinos. Both use same beans but different preparation.",
+      "keywords": ["espresso", "coffee", "difference", "explain", "customer"]
+    },
+    {
+      "id": 80,
+      "category": "troubleshooting",
+      "question": "grinder retention problem",
+      "answer": "Grinder retention is old grounds stuck in grinder. Causes stale flavor and dosing inconsistency. Solutions: Run grinder longer. Use bellows to push grounds. Single dose grinding. RDT technique with water spray. Clean grinder regularly.",
+      "keywords": ["retention", "grinder", "stuck", "grounds", "stale"]
+    },
+    {
+      "id": 81,
+      "category": "equipment",
+      "question": "coffee thermometer use",
+      "answer": "Use thermometer for milk steaming to reach 140 to 150 degrees. Check espresso machine water temperature around 200 degrees. Measure brewing water for pour over. Digital thermometers are most accurate. Clip-on milk thermometers are convenient.",
+      "keywords": ["thermometer", "temperature", "measurement", "milk", "water"]
+    },
+    {
+      "id": 82,
+      "category": "beans",
+      "question": "coffee bean freshness",
+      "answer": "Coffee is freshest 3 to 14 days after roasting. Use within 2 weeks of opening bag. Stale coffee tastes flat and lacks aroma. Frozen beans can last 3 months in airtight container. Whole beans stay fresh longer than ground coffee.",
+      "keywords": ["fresh", "stale", "age", "beans", "roast date"]
+    },
+    {
+      "id": 83,
+      "category": "latte_art",
+      "question": "etching vs free pour",
+      "answer": "Free pour creates patterns by pouring milk directly. Requires skill and proper milk texture. Etching uses tools like picks to draw in foam. Easier for beginners but less impressive. Free pour is standard in specialty cafes. Both create beautiful designs.",
+      "keywords": ["etching", "free pour", "latte art", "technique", "tool"]
+    },
+    {
+      "id": 84,
+      "category": "brewing",
+      "question": "coffee to water ratio",
+      "answer": "Standard ratio is 1 gram coffee to 16 grams water for filter coffee. Espresso uses 1 to 2 ratio. Stronger coffee uses 1 to 15. Weaker uses 1 to 18. Measure by weight not volume for consistency. Adjust to personal taste preference.",
+      "keywords": ["ratio", "coffee", "water", "measurement", "brew"]
+    },
+    {
+      "id": 85,
+      "category": "advanced",
+      "question": "espresso channeling prevention",
+      "answer": "Prevent channeling: Distribute grounds evenly with WDT tool. Tamp level and consistent. Use fresh coffee. Ensure dose is correct for basket. Clean shower screen. Level tamp is more important than pressure. Practice consistent technique.",
+      "keywords": ["channeling", "prevention", "distribution", "tamp", "even"]
+    },
+    {
+      "id": 86,
+      "category": "customer_service",
+      "question": "rush hour efficiency",
+      "answer": "During rush: Prep everything before busy period. Steam milk while pulling shots. Batch steam for multiple drinks. Keep portafilters loaded. Communicate with team. Maintain quality while working fast. Clean as you go. Stay organized.",
+      "keywords": ["rush", "busy", "efficiency", "speed", "workflow"]
+    },
+    {
+      "id": 87,
+      "category": "milk_drinks",
+      "question": "what is affogato",
+      "answer": "Affogato is Italian dessert of espresso poured over ice cream. Use vanilla gelato or ice cream. Pull fresh espresso shot. Pour hot espresso over cold ice cream. Serve immediately. Simple but elegant combination of hot and cold.",
+      "keywords": ["affogato", "ice cream", "gelato", "dessert", "espresso"]
+    },
+    {
+      "id": 88,
+      "category": "equipment",
+      "question": "knock box purpose",
+      "answer": "Knock box collects used espresso pucks. Sturdy bar allows quick puck removal from portafilter. Keeps workspace clean. Empties easily. Essential for busy barista workflow. Choose size based on volume. Rubber or plastic interior prevents damage.",
+      "keywords": ["knock box", "puck", "disposal", "waste", "grounds"]
+    },
+    {
+      "id": 89,
+      "category": "beans",
+      "question": "difference between washed and natural",
+      "answer": "Washed process removes fruit before drying. Creates clean, bright, acidic flavors. Natural process dries whole cherry. Creates fruity, wine-like, funky flavors. Washed is more common. Natural is sweeter but riskier to process. Both affect final cup significantly.",
+      "keywords": ["washed", "natural", "process", "processing", "difference"]
+    },
+    {
+      "id": 90,
+      "category": "troubleshooting",
+      "question": "machine not heating",
+      "answer": "If machine not heating: Check power connection. Verify water tank is full. Check boiler thermostat. Inspect heating element. Look for error codes. Check circuit breaker. May need professional repair if internal issue. Consult manual troubleshooting section.",
+      "keywords": ["heating", "problem", "machine", "cold", "broken"]
+    },
+    {
+      "id": 91,
+      "category": "advanced",
+      "question": "wdt tool purpose",
+      "answer": "WDT or Weiss Distribution Technique breaks up clumps in portafilter. Use thin needles to stir grounds. Creates even density throughout puck. Reduces channeling significantly. Essential for light roasts. DIY from cork and needles or buy commercial tool.",
+      "keywords": ["wdt", "distribution", "weiss", "needle", "clumps"]
+    },
+    {
+      "id": 92,
+      "category": "brewing",
+      "question": "coffee bloom importance",
+      "answer": "Bloom releases carbon dioxide from fresh coffee. Prevents uneven extraction. Pour water to saturate grounds and wait 30 seconds. You see bubbling and expansion. More bloom indicates fresher coffee. Critical step for pour over methods.",
+      "keywords": ["bloom", "degas", "pour over", "fresh", "carbon dioxide"]
+    },
+    {
+      "id": 93,
+      "category": "milk_drinks",
+      "question": "piccolo latte",
+      "answer": "Piccolo is small latte in 3 to 4 ounce glass. Use single ristretto shot. Top with steamed milk and small amount of foam. Popular in Australia. Stronger than regular latte due to smaller size. Similar to cortado but with ristretto base.",
+      "keywords": ["piccolo", "small", "latte", "ristretto", "mini"]
+    },
+    {
+      "id": 94,
+      "category": "equipment",
+      "question": "puck screen benefits",
+      "answer": "Puck screen sits on top of coffee before extraction. Provides even water distribution. Keeps shower screen cleaner. Can improve extraction consistency. Made of fine mesh stainless steel. Optional but helpful accessory. Must fit your basket size.",
+      "keywords": ["puck screen", "shower screen", "distribution", "accessory"]
+    },
+    {
+      "id": 95,
+      "category": "customer_service",
+      "question": "coffee allergen information",
+      "answer": "Pure coffee has no common allergens. Flavored syrups may contain allergens. Milk contains lactose and dairy proteins. Non-dairy milks vary in allergens like nuts or soy. Always ask customers about allergies. Clean equipment between allergen-containing drinks.",
+      "keywords": ["allergy", "allergen", "dairy", "nut", "safe"]
+    },
+    {
+      "id": 96,
+      "category": "beans",
+      "question": "coffee certification types",
+      "answer": "Common certifications: Organic means no synthetic pesticides. Fair Trade ensures minimum prices. Rainforest Alliance focuses on sustainability. Bird Friendly requires shade-grown. UTZ covers sustainability and traceability. Each has different standards and benefits.",
+      "keywords": ["certification", "organic", "fair trade", "sustainable", "label"]
+    },
+    {
+      "id": 97,
+      "category": "troubleshooting",
+      "question": "sour espresso fix",
+      "answer": "Sour espresso indicates under-extraction. Grind finer. Increase brew time. Raise water temperature. Use more coffee. Ensure even distribution and tamp. Fresh beans extract better. Adjust one variable at a time.",
+      "keywords": ["sour", "under-extracted", "acidic", "fix", "espresso"]
+    },
+    {
+      "id": 98,
+      "category": "latte_art",
+      "question": "swan latte art",
+      "answer": "Swan is advanced latte art pattern. Start with rosetta base. Add second pour for swan head and neck. Requires excellent milk control and practice. Many variations in design. Good pattern to progress to after mastering heart and rosetta.",
+      "keywords": ["swan", "latte art", "advanced", "pattern", "design"]
+    },
+    {
+      "id": 99,
+      "category": "brewing",
+      "question": "optimal brew temperature",
+      "answer": "Optimal brewing temperature is 195 to 205 degrees Fahrenheit. Lower temperature under-extracts and tastes sour. Higher temperature over-extracts and tastes bitter. Espresso uses 200 degrees. Pour over around 200 to 205. Adjust based on roast level and taste.",
+      "keywords": ["temperature", "brewing", "hot", "water", "optimal"]
+    },
+    {
+      "id": 100,
+      "category": "milk_drinks",
+      "question": "breve coffee",
+      "answer": "Breve uses half-and-half instead of milk. Much richer and creamier than regular latte. Higher fat content creates luxurious texture. Steam same as milk to 140 to 150 degrees. Popular American variation. Also called cafe breve.",
+      "keywords": ["breve", "half and half", "cream", "rich", "latte"]
+    },
+    {
+      "id": 101,
+      "category": "customer_service",
+      "question": "drink size naming",
+      "answer": "Size names vary by cafe. Common: Small 8 oz, Medium 12 oz, Large 16 oz. Some use Short, Tall, Grande, Venti. Espresso drinks scale by adding shots and milk. Maintain proper ratios when sizing up. Communicate clearly with customers about sizes.",
+      "keywords": ["size", "naming", "small", "medium", "large", "ounce"]
+    },
+    {
+      "id": 102,
+      "category": "advanced",
+      "question": "turbo shot espresso",
+      "answer": "Turbo shot uses coarser grind and higher dose for faster extraction. Typical: 20 grams in, 40 grams out in 15 to 20 seconds. Creates sweet, balanced flavor with less bitterness. Popularized by specialty coffee shops. Requires experimentation to dial in.",
+      "keywords": ["turbo", "shot", "fast", "coarse", "modern"]
+    },
+    {
+      "id": 103,
+      "category": "equipment",
+      "question": "bottomless portafilter benefits",
+      "answer": "Bottomless portafilter has no spouts. Lets you see extraction directly. Diagnose channeling and uneven extraction. Better temperature stability. Allows latte art cup positioning. Harder to use but great for learning. Clean up is messier if extraction is poor.",
+      "keywords": ["bottomless", "naked", "portafilter", "diagnostic", "see"]
+    },
+    {
+      "id": 104,
+      "category": "beans",
+      "question": "honey processed coffee",
+      "answer": "Honey process leaves some mucilage on bean during drying. Creates sweetness between washed and natural. Yellow honey is less mucilage. Red and black honey have more. Sticky and requires careful drying. Popular in Costa Rica. Produces complex sweetness.",
+      "keywords": ["honey", "process", "mucilage", "sweet", "processing"]
+    },
+    {
+      "id": 105,
+      "category": "troubleshooting",
+      "question": "espresso spraying everywhere",
+      "answer": "Spraying espresso indicates: Grind too coarse. Uneven distribution. Loose tamp. Damaged gasket. Dose too low for basket. Water pressure too high. Check each component systematically. Bottomless portafilter shows the problem clearly.",
+      "keywords": ["spraying", "spray", "mess", "everywhere", "problem"]
+    }
+
+
+]
+
