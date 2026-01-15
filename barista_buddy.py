@@ -1,8 +1,10 @@
 """
-Barista Buddy - Voice-Only AI Voice Assistant with LLM fallback
-- Voice input & output
+Barista Buddy - Voice-Only AI Voice Assistant with Continuous Listening
+- Starts listening immediately (no wake word)
+- FAQ-first for coffee questions
+- LLM fallback
 - Rejects non-coffee questions
-- Fallback to LLM if coffee question not in FAQ
+- Stop words: exit, goodbye, good bye
 """
 
 import json
@@ -12,6 +14,7 @@ import pyttsx3
 import speech_recognition as sr
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import re
 
 # ---------------------------
 # STT HANDLER
@@ -21,18 +24,14 @@ class STTHandler:
         self.recognizer = sr.Recognizer()
         self.microphone = sr.Microphone()
 
-    def listen(self, timeout=5, phrase_time_limit=4) -> str:
+    def listen_once(self, timeout=5, phrase_time_limit=6) -> str:
+        """Listen once and return recognized text"""
         with self.microphone as source:
             self.recognizer.adjust_for_ambient_noise(source, duration=0.3)
-            print("🎤 Listening...")
             try:
                 audio = self.recognizer.listen(source, timeout=timeout, phrase_time_limit=phrase_time_limit)
                 return self.recognizer.recognize_google(audio).lower()
-            except sr.WaitTimeoutError:
-                return ""
-            except sr.UnknownValueError:
-                return ""
-            except sr.RequestError:
+            except Exception:
                 return ""
 
 # ---------------------------
@@ -70,10 +69,11 @@ class FuzzyMatcher:
 # ---------------------------
 class TopicFilter:
     def __init__(self, keywords):
-        self.keywords = keywords
+        self.keywords = set(k.lower() for k in keywords)
 
     def is_coffee_related(self, text: str) -> bool:
-        return any(kw in text.lower() for kw in self.keywords)
+        words = set(re.findall(r'\b\w+\b', text.lower()))
+        return bool(words & self.keywords)
 
 # ---------------------------
 # RETRIEVAL SYSTEM
@@ -104,6 +104,7 @@ class LLMHandler:
         self.model = AutoModelForCausalLM.from_pretrained(model_name)
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model.to(self.device)
+        self.tokenizer.pad_token = self.tokenizer.eos_token
         print("LLM ready!")
 
     def query(self, text: str) -> str:
@@ -115,7 +116,7 @@ class LLMHandler:
         )
         inputs = self.tokenizer.encode(prompt, return_tensors="pt").to(self.device)
         outputs = self.model.generate(
-            inputs, 
+            inputs,
             max_length=200,
             num_return_sequences=1,
             pad_token_id=self.tokenizer.eos_token_id,
@@ -123,7 +124,6 @@ class LLMHandler:
             temperature=0.7
         )
         response = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
-        # Only take the assistant part
         return response.split("Barista Buddy:")[-1].strip()
 
 # ---------------------------
@@ -131,7 +131,7 @@ class LLMHandler:
 # ---------------------------
 class BaristaBuddy:
     def __init__(self, data_dir):
-        print("\n☕ BARISTA BUDDY (VOICE ONLY with LLM fallback)")
+        print("\n☕ BARISTA BUDDY (Continuous Listening Mode)")
         print("=" * 60)
 
         base_dir = Path(data_dir)
@@ -154,53 +154,58 @@ class BaristaBuddy:
         self.retrieval = RetrievalSystem(knowledge_list, cutoff=0.5)
         self.llm = LLMHandler(model_name="distilgpt2")
 
+        # Stop words
+        self.stop_words = ["exit", "goodbye", "good bye"]
+
         print("✓ Voice input enabled")
         print("✓ Voice output enabled")
-        print("✓ LLM fallback enabled")
+        print("✓ FAQ-first fallback enabled")
+        print("✓ Continuous listening enabled")
         print("=" * 60 + "\n")
 
     # ---------------------------
-    # PROCESS QUERY
+    # PROCESS QUERY (FAQ-first)
     # ---------------------------
     def process_query(self, query: str) -> str:
         query = self.fuzzy_matcher.correct_text(query)
         print(f"📝 Normalized query: {query}")
 
-        # Step 1: Topic filter
-        if not self.topic_filter.is_coffee_related(query):
-            return "Sorry, I can only help with coffee-related questions."
-
-        # Step 2: FAQ retrieval
+        # Step 1: FAQ retrieval first
         results = self.retrieval.retrieve(query)
         if results:
             return results[0]["answer"]
 
-        # Step 3: LLM fallback for coffee-related questions
-        return self.llm.query(query)
+        # Step 2: LLM fallback if coffee-related
+        if self.topic_filter.is_coffee_related(query):
+            answer = self.llm.query(query)
+            if answer:
+                return answer
+
+        # Step 3: Reject non-coffee questions
+        return "Sorry, I can only help with coffee-related questions."
 
     # ---------------------------
-    # RUN LOOP
+    # RUN CONTINUOUS MODE
     # ---------------------------
-    def run(self):
-        self.tts.speak("Hello! I'm Barista Buddy. How can I help you?")
-
-        while True:
-            try:
-                query = self.stt.listen(timeout=5, phrase_time_limit=4)
+    def run_continuous_mode(self):
+        self.tts.speak("Barista Buddy is ready and listening.")
+        try:
+            while True:
+                query = self.stt.listen_once()
                 if not query.strip():
-                    self.tts.speak("I didn't catch that. Please say it again.")
                     continue
 
-                if query.lower() in ["exit", "quit", "goodbye"]:
+                # Stop words check
+                if any(stop in query for stop in self.stop_words):
                     self.tts.speak("Goodbye! Happy brewing!")
                     break
 
+                # Assistant responds to any query
                 answer = self.process_query(query)
                 self.tts.speak(answer)
 
-            except KeyboardInterrupt:
-                self.tts.speak("Exiting Barista Buddy. Goodbye!")
-                break
+        except KeyboardInterrupt:
+            self.tts.speak("Exiting Barista Buddy. Goodbye!")
 
 # ---------------------------
 # ENTRY POINT
@@ -208,7 +213,7 @@ class BaristaBuddy:
 def main():
     data_folder = r"C:\Users\fansuri\Documents\pro\barista-buddy\DATA FILES"
     app = BaristaBuddy(data_dir=data_folder)
-    app.run()
+    app.run_continuous_mode()
 
 if __name__ == "__main__":
     main()
