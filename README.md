@@ -4,6 +4,13 @@
 Barista Buddy is a **voice-only AI assistant** specialized in coffee knowledge. It can listen to your voice, answer coffee-related questions, and speak back to you. If it doesn’t know the answer from its FAQ, it falls back to a local language model (**DistilGPT-2**) with prompt engineering.
 
 ---
+## 📊 Poster
+
+Here’s the poster for the Barista Buddy project:
+
+<p align="center">
+  <img src="Barista Buddy.png" width="600">
+</p>
 
 ## 🔹 Features
 
@@ -36,7 +43,7 @@ This project demonstrates a complete **voice assistant pipeline**:
 ---
 
 ## 🔹 Methodology
-## Architecture Diagram
+ **Architecture Diagram**
 
 <p align="center">
   <img src="architecture diagram.png" alt="Barista Buddy Architecture" width="600">
