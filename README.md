@@ -1,6 +1,5 @@
 # AI-Voice-Assistant-NLP-PROJECT: Barista Buddy
 
-![Barista Buddy]
 
 Barista Buddy is a **voice-only AI assistant** specialized in coffee knowledge. It can listen to your voice, answer coffee-related questions, and speak back to you. If it doesn’t know the answer from its FAQ, it falls back to a local language model (**DistilGPT-2**) with prompt engineering.
 
