@@ -36,6 +36,13 @@ This project demonstrates a complete **voice assistant pipeline**:
 ---
 
 ## 🔹 Methodology
+## Architecture Diagram
+
+<p align="center">
+  <img src="architecture diagram.png" alt="Barista Buddy Architecture" width="600">
+</p>
+
+*Figure 1: Barista Buddy system architecture showing STT, Fuzzy Matcher, Topic Filter, FAQ, LLM fallback, and TTS pipeline.*
 
 
 **Detailed steps:**
