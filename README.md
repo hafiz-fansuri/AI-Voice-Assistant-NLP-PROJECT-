@@ -1,6 +1,6 @@
 # AI-Voice-Assistant-NLP-PROJECT: Barista Buddy
 
-![Barista Buddy](https://via.placeholder.com/400x100.png?text=Barista+Buddy)  
+![Barista Buddy]
 
 Barista Buddy is a **voice-only AI assistant** specialized in coffee knowledge. It can listen to your voice, answer coffee-related questions, and speak back to you. If it doesn’t know the answer from its FAQ, it falls back to a local language model (**DistilGPT-2**) with prompt engineering.
 
@@ -85,5 +85,12 @@ Barista Buddy effectively demonstrates a **hybrid FAQ + LLM** AI assistant. It c
 1. Clone the repository:
 ```bash
 git clone https://github.com/YOUR_USERNAME/AI-Voice-Assistant-NLP-PROJECT.git
+```
+2. Make sure you have Python 3.9+ installed.
 
+3. Install required packages:
+ ```bash
+pip install -r requirements.txt
+
+```
 
